@@ -1,6 +1,12 @@
 <?php
+/**
+* Takes a given string and spits out a copy-and-pasteable PHP array of the sentences.
+*
+*
+*/
+
+//Make sure this is already escaped. Use something like http://www.freeformatter.com/javascript-escape.html
 $string = "";
-	
 
 $result = split_sentences($string);
 print_to_array($result);
